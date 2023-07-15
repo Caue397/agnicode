@@ -1,0 +1,74 @@
+.container-home {
+  padding-bottom: 15vh;
+  .text-content {
+    padding-top: 30vh;
+    #link-copied {
+      padding: 5px;
+      border-radius: 5px;
+      margin-left: 2vh;
+      color: $thirdy-color;
+      background-color: $secundary-color;
+      position: relative;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      &::before {
+        content: "";
+        right: 90px;
+        width: 0px;
+        height: -20px;
+        top: 4px;
+        display: block;
+        position: absolute;
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-right: 15px solid $secundary-color;
+      }
+    }
+  }
+  .img-content {
+    padding-top: 8vh;
+  }
+}
+
+.container-sobre {
+  display: flex;
+  align-items: center;
+  background-color: $fourth-color;
+  padding-bottom: 20vh;
+  .img-content {
+    padding-top: 12vh;
+  }
+  .text-content {
+    padding-top: 30vh;
+  }
+}
+
+.container-projetos {
+  background-color: $thirdy-color;
+  color: $primary-color;
+
+  .content {
+    padding-top: 15vh;
+    max-width: 130vh;
+    max-height: 70vh;
+    .container-carousel {
+      padding-top: 5vh;
+    }
+  }
+}
+
+.container-contato {
+  min-height: 25vh;
+  background-color: $primary-color;
+  fieldset {
+    position: relative;
+    padding: 20px;
+  }
+  legend {
+    background-color: $secundary-color;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute; /* Define o posicionamento absoluto para que o legend possa ser posicionado */
+    top: -27px; /* Define o valor negativo para ajustar a posição vertical acima da borda superior do fieldset */
+  }
+}

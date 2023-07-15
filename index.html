@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgniCode</title>
+    <link rel="icon" href="./images/AGNICODEFIRE.svg" type="image/svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="./js/index.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid nav-container" id="navbar">
+      <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand logo" href="./index.html">
+              <img src="./images/AGNICODEFIRE.svg" alt="AGNICODE FIRE LOGO" />
+              <div class="text-logo">
+                <span class="text-logo-agni">AGNI</span
+                ><span class="text-logo-code">CODE</span>
+              </div></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <svg
+                  width="45"
+                  height="59"
+                  viewBox="0 0 53 59"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.60328 22.2755C14.3093 15.5327 19.0153 13.0442 20.7801 12.6429C16.6623 16.2551 17.5447 22.2755 20.1919 25.2857C22.3096 27.6939 24.9959 28.2959 26.0744 28.2959C27.545 28.3963 31.0157 27.9347 33.1334 25.2857C35.2512 22.6367 35.3884 18.7636 35.1923 17.1582C33.7805 5.59898 41.8592 0.903061 46.075 0C39.6042 11.4388 46.075 17.7602 48.428 20.4694C50.3105 22.6367 51.9576 27.5935 52.5458 29.801C53.036 32.4099 53.5458 38.7112 51.6634 43.0459C49.3104 48.4643 48.428 49.0663 46.3691 51.7755C44.722 53.9429 40.7807 56.0901 39.016 56.8929C37.6434 57.5952 33.7805 59 29.3098 59C24.8391 59 20.584 57.1939 19.0153 56.2908L16.9565 55.0867C14.7015 53.8827 9.54445 49.4276 6.95614 41.2398C4.36782 33.052 7.64243 25.1854 9.60328 22.2755Z"
+                    fill="#01BAEF"
+                  />
+                  <path
+                    d="M3.52661 22.2755C8.13252 15.5327 12.7384 13.0442 14.4656 12.6429C10.4355 16.2551 11.2991 22.2755 13.8899 25.2857C15.9626 27.6939 18.5918 28.2959 19.6473 28.2959C21.0866 28.3963 24.4835 27.9347 26.5561 25.2857C28.6288 22.6367 28.7631 18.7636 28.5712 17.1582C27.1894 5.59898 35.0962 0.903061 39.2224 0C32.8892 11.4388 39.2224 17.7602 41.5253 20.4694C43.3677 22.6367 44.9797 27.5935 45.5555 29.801C46.0353 32.4099 46.5342 38.7112 44.6919 43.0459C42.3889 48.4643 41.5253 49.0663 39.5102 51.7755C37.8982 53.9429 34.0407 56.0901 32.3135 56.8929C30.9701 57.5952 27.1894 59 22.8138 59C18.4382 59 14.2737 57.1939 12.7384 56.2908L10.7233 55.0867C8.51635 53.8827 3.46904 49.4276 0.935794 41.2398C-1.59745 33.052 1.60749 25.1854 3.52661 22.2755Z"
+                    fill="#061A40"
+                  />
+                </svg>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav nav-pills justify-content-end flex-grow-1"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link m-3" href="#scroll-home">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link m-3" href="#scroll-sobre">SOBRE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link m-3" href="#scroll-projetos">PROJETOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link m-3" href="#scroll-contato">CONTATO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main
+      data-bs-spy="scroll"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example"
+      tabindex="0"
+    >
+      <div
+        class="container-fluid container-home main-container"
+        id="scroll-home"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col text-content">
+              <p class="h2 mb-2">
+                <span class="text-color-secundary">BEM VINDO!</span>
+              </p>
+              <p class="h1 m-0">PRECISANDO DE UM SITE?</p>
+              <p class="h1 m-0">DEIXA COM A GENTE!</p>
+              <p class="h5 m-0">
+                <a
+                  href="https://www.instagram.com/agnicode.dev/"
+                  class="text-color-secundary"
+                  style="text-decoration: none"
+                  target="_blank"
+                  ><i class="bi bi-instagram"></i> AGNICODE.DEV</a
+                >
+              </p>
+              <p class="h5 mt-0 mb-2">
+                <a
+                  href=""
+                  class="text-color-secundary"
+                  style="text-decoration: none"
+                  id="link-email"
+                >
+                  <i class="bi bi-envelope"></i> AGNICODE.DEV@GMAIL.COM</a
+                >
+                <span class="hidden" id="link-copied">LINK COPIADO</span>
+              </p>
+              <button class="btn">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=5511981537107&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                  ><i class="bi bi-whatsapp"></i> ENTRE EM CONTATO</a
+                >
+              </button>
+            </div>
+            <div class="col-lg img-content">
+              <img
+                class="img-fluid"
+                src="./images/idea.svg"
+                alt="ideas development web"
+              />
+            </div>
+          </div>
+          <div class="row text-center mt-5">
+            <div class="col">
+              <img src="./images/arrow.svg" alt="ARROW SEE MORE" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid main-container container-sobre"
+        id="scroll-sobre"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md img-content">
+              <img
+                class="img-fluid"
+                src="./images/AGNICODE.svg"
+                alt="ideas development web"
+              />
+            </div>
+            <div class="col-md text-content">
+              <p class="h1 mb-2">
+                <span class="text-color-secundary">QUEM SOMOS?</span>
+              </p>
+              <p class="h2 mt-2">
+                SOMOS UMA EQUIPE DE DESENVOLVIMENTO DE SITES BUSCANDO
+                TRANSFORMAR SUAS IDÉIAS EM REALIDADE! 💡
+              </p>
+              <p class="h2 m-0">
+                AQUI VALORIZAMOS A
+                <span class="text-color-secundary">EXCELÊNCIA</span>, A
+                <span class="text-color-secundary">QUALIDADE</span> E,
+                PRINCIPALMENTE, A COLABORAÇÃO E O
+                <span class="text-color-secundary"
+                  >ATENDIMENTO AO CLIENTE.</span
+                >
+              </p>
+              <button class="btn mt-3">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=5511981537107&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                  ><i class="bi bi-whatsapp"></i> ENTRE EM CONTATO</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid main-container container-projetos"
+        id="scroll-projetos"
+      >
+        <div class="container content text-center">
+          <p class="h1">PROJETOS REALIZADOS:</p>
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide container-carousel"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/et.PNG"
+                  class="d-block w-100"
+                  alt="Landing Page Web"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/agnicode.PNG"
+                  class="d-block w-100"
+                  alt="Landing Page Web"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/yourproject.png"
+                  class="d-block w-100"
+                  alt="Landing Page Web"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid container-contato mt-5" id="scroll-contato">
+        <fieldset>
+          <div class="container">
+            <div class="row d-flex justify-content-center mb-3">
+              <legend class="text-color-thirdy">
+                ENTRE EM CONTATO CONOSCO
+              </legend>
+            </div>
+            <footer class="container text-center mt-5">
+              <div class="row gy-3">
+                <div class="col-sm">
+                  <p class="h5">
+                    <span class="text-color-thirdy"
+                      ><i class="bi bi-whatsapp"></i> WHATSAPP:</span
+                    >
+                  </p>
+                  <p class="m-0">
+                    <span class="text-color-thirdy">+55 11 98153-7107</span>
+                  </p>
+                  <p class="m-0">
+                    <span class="text-color-thirdy">+55 11 98529-6758</span>
+                  </p>
+                </div>
+                <div class="col-sm">
+                  <p class="h5">
+                    <span class="text-color-thirdy"
+                      ><i class="bi bi-instagram"></i> INSTAGRAM:</span
+                    >
+                  </p>
+                  <p class="m-0">
+                    <span class="text-color-thirdy">@AGNICODE.DEV</span>
+                  </p>
+                </div>
+                <div class="col-sm">
+                  <p class="h5">
+                    <span class="text-color-thirdy"
+                      ><i class="bi bi-envelope"></i> EMAIL:</span
+                    >
+                  </p>
+                  <p class="m-0">
+                    <span class="text-color-thirdy"
+                      >AGNICODE.DEV@GMAIL.COM</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <p class="h5">
+                  <span class="text-color-thirdy">BY AGNI</span
+                  ><span class="text-color-secundary">CODE</span>
+                  <img src="./images/Fire.svg" alt="AGNI CODE FIRE" />
+                </p>
+                <p>
+                  <span class="text-color-thirdy"
+                    >Copyright © 2023 - Todos os Direitos Reservados</span
+                  >
+                </p>
+              </div>
+            </footer>
+          </div>
+        </fieldset>
+      </div>
+    </main>
+  </body>
+</html>

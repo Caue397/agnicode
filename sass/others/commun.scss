@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dhurjati&display=swap");
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+//styles colors
+.text-color-primary {
+  color: $primary-color;
+}
+
+.text-color-secundary {
+  color: $secundary-color;
+}
+
+.text-color-thirdy {
+  color: $thirdy-color;
+}
+
+.btn {
+  transition: transform 0.3s ease-out !important;
+  background-color: $secundary-color !important;
+  font-size: 20px !important;
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white !important;
+  }
+}
+
+//navbar
+
+.nav-container {
+  background-color: $thirdy-color !important;
+  .navbar {
+    background-color: $thirdy-color !important;
+    min-height: 10vh;
+    .nav-item {
+      font-size: 26px;
+    }
+    .navbar-toggler {
+      border-color: transparent;
+    }
+  }
+}
+
+#navbar {
+  background-color: $thirdy-color;
+  visibility: visible;
+  transition: transform 0.3 ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+.active {
+  background-color: $thirdy-color !important;
+  border-bottom: 4px solid $secundary-color !important;
+  border-radius: 0 !important;
+}
+
+.logo {
+  display: flex;
+  padding: 0px 8px;
+  align-items: center;
+  gap: 8px;
+  .text-logo-agni {
+    color: $primary-color;
+    font-family: Dhurjati;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .text-logo-code {
+    color: $secundary-color;
+    font-family: Dhurjati;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+//main
+.main-container {
+  min-height: 100vh;
+}
