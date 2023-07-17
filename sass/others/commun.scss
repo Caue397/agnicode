@@ -8,6 +8,14 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
+.whatsapp-icon {
+  font-size: 50px;
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
 //styles colors
 .text-color-primary {
   color: $primary-color;
